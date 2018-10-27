@@ -1,2 +1,2 @@
 # pwm-lexus-xe20-heater-fan
-Pwm signal to control heater fan on lexus is250, is220, is350
+Arduino program to create an pwm signal to control heater fan speed on lexus is250, is220, is350.
