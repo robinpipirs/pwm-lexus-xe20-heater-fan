@@ -1,6 +1,6 @@
 
-int pwmPin = 3;      // LED connected to digital pin 9
-int val = 100;         // variable to store the read value
+int pwmPin = 3;      // pin to heater connected to pin 3.
+int val = 100;         // variable to store the pwm value
 
 void setup()
 {
@@ -9,6 +9,6 @@ void setup()
 
 void loop()
 {
-  analogWrite(pwmPin, 130);  // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
+  analogWrite(pwmPin, 130);  // analogWrite to pwm.
 }
 
